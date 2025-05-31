@@ -1,5 +1,102 @@
-.navbar{
+.navbar-one-ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    list-style: none;
+}
+
+.navbar-two-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+
+/*NAVBAR THREE*/
+.navbar-three {
+    display: flex;
+    justify-content: space-between; /* zorgt dat logo links staat en menu rechts */
+    align-items: center;            /* centreert verticaal */
+}
+
+.navbar-three-img {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;                    /* ruimte tussen logo en tekst */
+}
+
+.navbar-three-ul {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/*NAVBAR FOUR*/
+.navbar-four{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar-four-img{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-four-ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-four-ul li{
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.navbar-four-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 0.5rem;
+}
+.navbar-four-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/*NAVBAR FIVE*/
+
+.navbar-five{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-five-img{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbar-five-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+.navbar-five-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 0.5rem;
 }
