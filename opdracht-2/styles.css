@@ -1,0 +1,217 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+/*CONTAINER ZELF*/
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+/*SIDEBAR*/
+.sidebar {
+    width: 400px;
+    min-width: 250px;
+    background-color: #dedede;
+    flex-shrink: 0;
+}
+
+/*SIDEBAR HEADER*/
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 30px 0 30px 30px;
+    gap: 10px;
+}
+
+.sidebar-header p {
+    font-weight: bold;
+    color: black;
+}
+
+.sidebar-header img {
+    width: 30px;
+    height: auto;
+
+}
+
+/*SIDEBAR MENU*/
+.sidebar-menu nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+}
+
+.sidebar-menu li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+.sidebar-menu li a {
+    display: flex;
+    gap: 20px;
+    color: black;
+    padding: 10px 20px 20px 0;
+}
+
+.sidebar-menu a:hover {
+    background-color: #d1cfcf;
+
+}
+
+
+.sidebar-menu img {
+    width: 25px;
+}
+
+
+/*SIDEBAR FOOTER*/
+.sidebar-footer {
+    display: flex;
+    margin-top: auto;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0 10px 10px 10px;
+}
+
+.btn-Signup {
+    gap: 10px;
+}
+
+.btn-login {
+    background-color: #383838;
+    color: white;
+    border: none;
+}
+
+/*HEADER*/
+.content-main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+
+
+}
+
+.header-content {
+    flex: 1;
+    overflow: auto;
+    padding: 0 0 30px 0
+
+}
+
+.header-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/placeholder-image.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    padding-bottom: 40px;
+}
+
+.header-banner h1, p {
+    word-break: break-word !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/*MAIN*/
+
+.main-container {
+    flex: 1;
+    padding: 20px 0 40px 0;
+    background-color: white;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(33.333% - 20px);
+    min-width: 250px;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1px 12px 0 rgb(203 201 201);
+    border-radius: 10px;
+
+}
+
+.card h2 {
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card p {
+    text-align: left;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.price-tag {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.price-tag img {
+    width: 25px;
+    height: 25px;
+}
+
+/*FOOTER*/
+
+.footer-content {
+    background-color: #383838;
+    color: white;
+    padding: 20px;
+
+}
+
+.footer-content p {
+    font-size: 16px;
+}
